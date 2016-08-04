@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="/assets/bower_components/angular-ui-bootstrap-datetimepicker/datetimepicker.css">
-    <link rel="stylesheet" href="/assets/css/angular-aside.min.css">
     <link rel="icon" href="favicon.ico">
-    <script src="/assets/bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
+        <video id="video" autoplay muted loop>  
+            <source src="background.mp4" type="video/mp4">
+        </video>
 <div class="container navbar-div">
     <div id="cssmenu" class="align-center">
       <span class="pull-left">
@@ -20,7 +20,9 @@
       <span class="pull-right">
         <button class="btn menu-item"><a class="menu-link" href="https://discord.gg/0vmmZ6VAwXB05gB6">Support Chat</a></button>
         <span class="menu-line">|</span>
-        <button class="btn menu-btn" onclick="openAside('right', true)">
+		 <button class="btn menu-item"><a class="menu-link" href="https://github.com/MasterTokenHD/getLOLsandbox">Github</a></button>
+                <span class="menu-line">|</span>
+		<button class="btn menu-btn" onclick="openAside('right', true)">
             <i class="fa fa-bars" aria-hidden="true"></i>
             Guide
         </button>
@@ -40,7 +42,7 @@
             <h2 class="minecraft-section-title">Stable</h2>
         </div>
         <!-- BLOCK 1 for servers -->
-        <div class="minecraft-section-jar">
+        <div class="minecraft-section-jar ama ">
             <div class="row">
                 <div class="col-xs-12 text-center">
                     <button class="minecraft-create-button"><a href="https://www.dropbox.com/s/k2psc70yizbj3gk/server.zip?dl=1">Download</a></button>
@@ -67,7 +69,7 @@
             <h2 class="minecraft-section-title">Required files</h2>
         </div>
         <!-- BLOCK 4 for servers -->
-        <div class="minecraft-section-jar">
+        <div class="minecraft-section-jar requireds">
             <div class="row">
                 <div class="col-xs-12 text-center">
                     <button class="minecraft-client-button"><a href="https://mega.nz/#!pFRVxBJQ!AMbsJnS9kqhvQ-tfP8QxoBikbrjlGQ4MdzNYGo0fIKM">LOL 5GB Version</a></button>
@@ -85,10 +87,10 @@
 		</div>
 		    <div class="col-md-3 col-xs-12 center-block">
         <div class="minecraft-section-title-div section4">
-            <h2 class="minecraft-section-title">GUIDE</h2>
+            <h2 class="minecraft-section-title ">GUIDE</h2>
         </div>
         <!-- BLOCK 4 for servers -->
-        <div class="minecraft-section-jar">
+        <div class="minecraft-section-jar requireds">
             <div class="row">
                 <div class="col-xs-12 text-center">
          
@@ -135,8 +137,7 @@
     </div>
     <div class="modal-backdrop fade in" uib-modal-animation-class="fade" modal-in-class="in" uib-modal-backdrop="modal-backdrop" modal-animation="true" style="z-index: 1040;"></div>
 </div><!-- navbar -->
-<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
-<script src="/assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script> 
 
 <script type="application/javascript">
     $(function(){
